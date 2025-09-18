@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { WalletConnect } from "@/components/WalletConnect";
+import { EncryptedPoolManager } from "@/components/EncryptedPoolManager";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -62,6 +63,8 @@ const LaunchApp = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Main Interface */}
           <div className="lg:col-span-2 space-y-6">
+            {/* Encrypted Pool Manager */}
+            <EncryptedPoolManager />
             {/* Privacy Status */}
             <Card className="bg-gradient-glow border-border">
               <div className="p-6">

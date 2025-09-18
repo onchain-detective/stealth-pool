@@ -40,13 +40,13 @@ Add the following environment variables in Vercel dashboard:
 ```env
 # Network Configuration
 NEXT_PUBLIC_CHAIN_ID=11155111
-NEXT_PUBLIC_RPC_URL=https://sepolia.infura.io/v3/b18fb7e6ca7045ac83c41157ab93f990
+NEXT_PUBLIC_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_KEY
 
 # Wallet Connect Configuration
-NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=2ec9743d0d0cd7fb94dee1a7e6d33475
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=YOUR_WALLET_CONNECT_PROJECT_ID
 
 # Infura Configuration
-NEXT_PUBLIC_INFURA_API_KEY=b18fb7e6ca7045ac83c41157ab93f990
+NEXT_PUBLIC_INFURA_API_KEY=YOUR_INFURA_API_KEY
 ```
 
 #### How to Add Environment Variables:
@@ -60,7 +60,10 @@ NEXT_PUBLIC_INFURA_API_KEY=b18fb7e6ca7045ac83c41157ab93f990
    - **Environment**: Production, Preview, Development (select all)
    - Click "Save"
 
-5. Repeat for all environment variables listed above
+5. Repeat for all environment variables listed above:
+   - `NEXT_PUBLIC_RPC_URL`: Your Infura RPC URL
+   - `NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID`: Your WalletConnect Project ID
+   - `NEXT_PUBLIC_INFURA_API_KEY`: Your Infura API Key (optional)
 
 ### Step 4: Advanced Configuration
 
